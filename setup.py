@@ -11,7 +11,7 @@ classifiers = [
 ]
 
 setup(name='get_retries',
-      version='0.0.0',
+      version='0.1.0',
       description="Adding retries to Requests.get() with exponential backoff",
       long_description=long_description,
       long_description_content_type="text/markdown",
