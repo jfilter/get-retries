@@ -7,16 +7,16 @@ Retry unsuccessful `GET` requests after waiting for a specific time interval. Wi
 ## Install
 
 ```bash
-pip install get_requests
+pip install get_retries
 ```
 
 ## Usage
 
 ```python
-import get_requests
+import get_retries
 
 # max_backoff: maximum interval to wait in seconds
-response = get_requests.get('https://wikipedia.com', max_backoff=32)
+response = get_retries.get('https://wikipedia.com', max_backoff=32)
 
 if response:
     print(response.status_code)
