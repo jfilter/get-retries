@@ -1,3 +1,7 @@
+# Please use <https://github.com/bustawin/retry-requests>
+
+This package is no longer maintained.
+
 # get_retries [![Build Status](https://travis-ci.com/jfilter/get_retries.svg?branch=master)](https://travis-ci.com/jfilter/get_retries) [![PyPI](https://img.shields.io/pypi/v/get_retries.svg)](https://pypi.org/project/get_retries/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/get_retries.svg)](https://pypi.org/project/get_retries/)
 
 Adding retries to [Requests](https://github.com/requests/requests)`.get()` with [exponential backoff](https://en.wikipedia.org/wiki/Exponential_backoff).
